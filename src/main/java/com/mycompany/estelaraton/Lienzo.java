@@ -59,7 +59,7 @@ public class Lienzo extends JPanel{
         return rainbow[counter%7];
     }
 
-    private void setColors() {
+    private void setColors()  {
         switch(colores[0]){
             case 0:this.setBackground(Color.white);
                 break;
